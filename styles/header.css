@@ -1,7 +1,7 @@
 .cabecalho__navegacao {
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    font-family: var(--fonte-principal);
 }
 
 .navegacao__divisao {
@@ -30,4 +30,23 @@
     color: var(--cor-de-fundo);
     font-weight: 400;
     background-color: var(--cor-vinho);
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.opcoes__direita {
+    margin-right: auto;
+}
+
+.opcoes {
+    gap: 1.5em;
+}
+
+.opcoes__principal {
+    gap: .3em;
+    margin-right: 8em;
+}
+
+.cabecalho {
+    margin: 1em 4em 1em 4em;
 }
