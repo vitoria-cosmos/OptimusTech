@@ -1,0 +1,33 @@
+.cabecalho__navegacao {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.navegacao__divisao {
+    display: flex;
+    align-items: center;
+}
+
+.texto__logo {
+    color: var(--cor-verde);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.nav__links {
+    text-decoration: none;
+}
+
+.navegacao__link, 
+.nav__cinza {
+    color: var(--cinza-claro);
+    font-weight: 400;
+    
+}
+
+.navegacao__botao__vinho {
+    color: var(--cor-de-fundo);
+    font-weight: 400;
+    background-color: var(--cor-vinho);
+}
