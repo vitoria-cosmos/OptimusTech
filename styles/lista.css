@@ -24,6 +24,6 @@
 .container__lista {
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
-    justify-content:space-between;
+    justify-content:space-around;
     margin: 0 4em;
 }
