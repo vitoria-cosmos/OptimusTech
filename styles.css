@@ -1,6 +1,7 @@
 @import url(styles/header.css);
 @import url(styles/sobre.css);
 @import url(styles/lista.css);
+@import url(styles/vagas.css);
 
 :root {
     --cor-de-fundo: #FFFFFF;
@@ -8,6 +9,7 @@
     --cinza-claro: #667085;
     --cor-vinho: #8E2424;
     --cor-preta: #101828;
+    --vinho-claro: rgba(142, 36, 36, 0.05);
     --fonte-principal: "Inter";
 }
 
@@ -18,3 +20,4 @@ body {
     font-weight: 400;
     margin: 0em 0em;
 }
+
