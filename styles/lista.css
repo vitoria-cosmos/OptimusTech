@@ -1,0 +1,29 @@
+.lista__titulo, .lista__subtitulo, .lista__texto {
+    font-family: var(--fonte-principal);
+}
+
+.lista__titulo {
+    color: var(--cor-vinho);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.lista__subtitulo {
+    color: var(--cor-preta);
+    font-weight: 500;
+    font-size: 18px;
+    padding: 1em 0;
+}
+
+.lista__texto {
+    color: var(--cinza-claro);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container__lista {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content:space-between;
+    margin: 0 4em;
+}

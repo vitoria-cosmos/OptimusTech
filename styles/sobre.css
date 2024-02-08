@@ -1,0 +1,28 @@
+.sobre__titulo__menor {
+    color: var(--cor-vinho);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sobre__titulo {
+    color: var(--cor-preta);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.sobre__texto {
+    color: var(--cinza-claro);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    margin: 8em 12em;
+}
