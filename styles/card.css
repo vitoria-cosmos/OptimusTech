@@ -1,0 +1,52 @@
+.conteiner__card {
+    font-family: var(--fonte-principal);
+}
+.vagas__titulo__card {
+    margin: 1.5em 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-preta);
+    text-align: left;
+    width: 55%;
+}
+
+.titulo__card {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-preta);
+}
+
+.card__texto {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+}
+
+.conteiner__card {
+    border: 2px solid var(--cor-borda);
+    border-radius: 10px;
+    padding: 1.5em;
+    width: 50%;
+}
+
+.vagas__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin: 0em 8em 4em 8em;
+}
+
+.container__titulo__card {
+    padding-bottom: 1.5em;
+}
+
+.container__card__texto {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.conteiner__card:hover {
+    background-color: var(--cor-borda);
+}

@@ -2,6 +2,7 @@
 @import url(styles/sobre.css);
 @import url(styles/lista.css);
 @import url(styles/vagas.css);
+@import url(styles/card.css);
 
 :root {
     --cor-de-fundo: #FFFFFF;
@@ -11,6 +12,7 @@
     --cor-preta: #101828;
     --vinho-claro: rgba(142, 36, 36, 0.05);
     --fonte-principal: "Inter";
+    --cor-borda: #EAECF0;
 }
 
 body {
