@@ -49,4 +49,16 @@
 
 .cabecalho {
     margin: 1em 4em 1em 4em;
+} 
+
+.navegacao__link:hover, .navegacao__botao:hover {
+    color: var(--cor-vinho);
+}
+
+.navegacao__botao__vinho:hover {
+    color: var(--cinza-claro);
+}
+
+.navegacao__link, .navegacao__botao, .navegacao__botao__vinho {
+    font-weight: 500;
 }
