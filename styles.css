@@ -14,6 +14,7 @@
     --vinho-claro: rgba(142, 36, 36, 0.05);
     --fonte-principal: "Inter";
     --cor-borda: #EAECF0;
+    --vinho-claro-secundario: rgba(195, 25, 25, 0.03);
 }
 
 body {
